@@ -14311,3 +14311,16 @@ p.sticky-label {
 
 
 
+#additional-section {
+  padding: 100px 100px 70px 85px
+}
+
+@media only screen and (max-width: 768px) {
+  #additional-section {
+    padding: 50px 10px 70px 10px;
+    text-align: center;
+  }
+  #additional-section h3 {
+    margin-bottom: 20px;
+  }
+}
