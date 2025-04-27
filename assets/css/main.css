@@ -14317,6 +14317,10 @@ p.sticky-label {
   padding: 100px 100px 70px 85px
 }
 
+.location-content {
+  padding: 0 0 0 100px
+}
+
 @media only screen and (max-width: 768px) {
   #additional-section {
     padding: 50px 10px 70px 10px;
@@ -14334,5 +14338,12 @@ p.sticky-label {
   .menu-section-title h2 {
     width: 100%;
     padding: 20px;
+  }
+  
+}
+
+@media only screen and (max-width: 991px) {
+  .location-content {
+    padding: 0 0 0 20px
   }
 }
